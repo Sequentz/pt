@@ -6,7 +6,7 @@ import HamburgerMenu from "./HamburgerMenu";
 const Header = () => {
 
   return (
-    <div className="bg-purple-600 w-full h-24 relative">
+    <div className="bg-gradient-to-b from-gray-400 to-black  w-full h-24 relative">
         <HamburgerMenu  />
     </div>
     
