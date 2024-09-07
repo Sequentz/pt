@@ -2,16 +2,15 @@
 
 import HamburgerMenu from "./HamburgerMenu";
 
-
 const Header = () => {
-
   return (
-    <div className="bg-gradient-to-b from-gray-400 to-black  w-full h-24 relative">
-        <HamburgerMenu  />
+    <div className="bg-customGray w-full h-24 relative">
+      {/* Visible only on mobile (small screens), hidden on tablet and larger screens */}
+      <div className="block sm:hidden">
+        <HamburgerMenu />
+      </div>
     </div>
-    
   );
 };
 
 export default Header;
-
